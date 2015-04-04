@@ -1,0 +1,28 @@
+{
+  "name": "showdown-star",
+  "version": "0.0.1",
+  "homepage": "https://github.com/phodal/showdown-star",
+  "authors": [
+    "Fengda HUANG <h@phodal.com>"
+  ],
+  "description": "Showdown Star Plugin",
+  "main": "src/star.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "showdown",
+    "star",
+    "level"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
