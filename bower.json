@@ -7,6 +7,9 @@
   ],
   "description": "Showdown Star Plugin",
   "main": "src/star.js",
+  "dependencies": {
+    "showdown": "1.0.x"
+  },
   "moduleType": [
     "amd"
   ],
