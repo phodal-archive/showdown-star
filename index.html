@@ -5,7 +5,7 @@
     <title>Showdown Star Plugin</title>
     <link rel="stylesheet" href="styles/main.css"/>
     <link rel="stylesheet" href="styles/star.css"/>
-    <script src="lib/Showdown.js" ></script>
+    <script src="app/bower_components/showdown/dist/showdown.js" ></script>
     <script src="src/star.js" ></script>
 </head>
 <body>
@@ -13,7 +13,7 @@
 <div id="show">
 </div>
 <script>
-    var converter = new Showdown.converter({ extensions: ['star'] });
+    var converter = new showdown.Converter({ extensions: ['star'] });
     var result = converter.makeHtml('<level1> <br/> <level1.5> <br/> <level3> <br/> <level3.5>');
     document.getElementById('show').innerHTML = result;
 </script>
